@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "job-parser-oop-"
+version = "0.1.0"
+description = ""
+authors = ["user <kosareva.karina2013@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "job_parser_oop_"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
